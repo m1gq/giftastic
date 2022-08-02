@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/giftastic/static/css/main.c6bb17a8.css",
-    "main.js": "/giftastic/static/js/main.0266c7a5.js",
+    "main.js": "/giftastic/static/js/main.dc799a64.js",
     "static/media/page-error404.svg": "/giftastic/static/media/page-error404.68b9286edf72e96dc591ae67e31f475d.svg",
     "static/media/link-solid.svg": "/giftastic/static/media/link-solid.de6096f17096080fec700d6f080de361.svg",
     "index.html": "/giftastic/index.html",
     "static/media/user-solid.svg": "/giftastic/static/media/user-solid.ff5c39e4067bbd06037fd389daffc1fa.svg",
     "main.c6bb17a8.css.map": "/giftastic/static/css/main.c6bb17a8.css.map",
-    "main.0266c7a5.js.map": "/giftastic/static/js/main.0266c7a5.js.map"
+    "main.dc799a64.js.map": "/giftastic/static/js/main.dc799a64.js.map"
   },
   "entrypoints": [
     "static/css/main.c6bb17a8.css",
-    "static/js/main.0266c7a5.js"
+    "static/js/main.dc799a64.js"
   ]
 }
