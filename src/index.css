@@ -1,13 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 1rem;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  background-color: rgb(27, 29, 40)
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.home {
+    text-align: center;
+    margin-bottom: 1.525rem;
+    z-index: 100;
+}
+
+.home-title {
+    text-align: center;
+    color: #d2ffdc;
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+input, button {
+    font-family: 'Inter', sans-serif;
+}
+
+.description-title {
+    position: relative;
+    display: inline;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.description-title::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 50%;
+    left: 50%;
+    margin-top: 5px;
+    transform: translateX(-50%);
+    border: 2px solid rgb(152, 144, 240);
+}
+
+.loading-next-page {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-block: 1em;
+}
+
+.loading-next-page::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 8%;
+    left: 50%;
+    margin-top: 5px;
+    transform: translateX(-50%);
+    border: 2px solid rgb(152, 144, 240);
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
 }

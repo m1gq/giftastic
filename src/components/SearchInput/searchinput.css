@@ -1,0 +1,61 @@
+input {
+    border: none;
+    background: #fff;
+    outline: none;
+    padding: 12px;
+    color: #2b2b2b;
+    width: 90%;
+    font-size: 1.1rem;
+    overflow: hidden;
+}
+
+form input::placeholder {
+    color: #868491;
+}
+
+form {
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    height: 2.4em;
+    border-radius: 2px;
+    overflow: hidden;
+    background: #fff;
+    margin-inline: auto;
+    margin-bottom: 2em;
+    border: 2px solid rgb(66, 128, 247, 0);
+    transition: border-color 300ms ease-in-out;
+}
+
+button[type="submit"] {
+    color: #868491;
+    border: none;
+    height: 100%;
+    width: 20%;
+    background-color: #fff;
+    font-size: 1.1rem;
+    padding-inline: 12px;
+    cursor: pointer;
+    transition: background-color 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+
+form:focus-within,
+form:hover {
+    border: 2px solid rgb(66, 128, 247);
+}
+
+form:focus-within > button[type="submit"],
+form:hover > button[type="submit"] {
+    color: rgb(26, 25, 25);
+    background-color: rgb(66, 128, 247);
+    color: #fff;
+}
+
+@media screen and (max-width: 45rem) {
+    form {
+        width: 100%;
+    }
+}
