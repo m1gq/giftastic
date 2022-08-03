@@ -8,7 +8,7 @@ import { Helmet } from 'react-helmet'
 
 export default function Detail({ params }) {
     const { gif, error } = useGif(params.id)
-    if (error) return <Redirect to="/404" />
+    if (error) return <Redirect to="/giftastic/404" />
     return (
         <>
         {!gif ? <Loading><h2 className="loading-title">Loading Gif</h2></Loading> :

@@ -1,4 +1,3 @@
-import SearchInput from '../.././components/SearchInput/SearchInput'
 import Gifs from '../.././components/gifs/Gifs'
 import { Helmet } from 'react-helmet'
 export default function Home() {
@@ -8,9 +7,6 @@ export default function Home() {
                 <title>Home | giftastic!</title>
                 <meta name="description" content="giftastic is a web to find cool gifs!" />
             </Helmet>
-            <header>
-                <SearchInput />
-            </header>
             <Gifs title={'Trending Gifs'}/>
         </>
     )

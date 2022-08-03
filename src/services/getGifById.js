@@ -1,4 +1,4 @@
-import { URL, API_KEY } from '../settings'
+import { URL, API_KEY } from './settings'
 export default function getGifById(id) {
     const FIND_GIF_BY_ID_URL = `${URL}/${id}?api_key=${API_KEY}`
     return fetch(FIND_GIF_BY_ID_URL)

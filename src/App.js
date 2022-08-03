@@ -9,28 +9,28 @@ function App() {
     return (
       <main>
         <div className="home">
-            <Link to={'/'} className="home-title">giftastic!</Link>
+            <Link to={'/giftastic'} className="home-title">giftastic!</Link>
         </div>
         <GifsContextProvider>
             <Route
-                path="/"
+                path="/giftastic"
                 component={ Home }
             />
             <Route
-                path="/gif/:id"
+                path="/giftastic/gif/:id"
                 component={ Detail }
             />
             <Route
-                path="/search/:keyword"
+                path="/giftastic/search/:keyword"
                 component={ Gifs } />
             <Route
-                path="/404"
+                path="/giftastic/404"
                 component={() => {
                     return (
                         <ErrorPage>
                             <h1 className="error">Something went wrong</h1>
                         </ErrorPage>)
-                    }} 
+                    }}
             />
         </GifsContextProvider>
       </main>

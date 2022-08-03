@@ -56,3 +56,9 @@
         transform: scale(2);
     }
 }
+
+@media screen and (max-width: 37.5rem) {
+    .loading-title {
+        font-size: 1.4rem;
+    }
+}

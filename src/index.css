@@ -76,12 +76,10 @@ input, button {
     left: 50%;
     margin-top: 5px;
     transform: translateX(-50%);
-    border: 2px solid rgb(152, 144, 240);
+    border: 2px solid rgb(241, 230, 37);
 }
 
 button {
     border: none;
     cursor: pointer;
-    width: 100%;
-    height: 100%;
 }

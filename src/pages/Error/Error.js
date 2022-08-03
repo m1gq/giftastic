@@ -14,8 +14,8 @@ export default function ErrorPage({ children }) {
             <div className="error-container">
                 <ErrorImg className="error-img"/>
                 { children }
-                <Link to={'/'} component={ Home } className="button">
-                    <button>Go Back To Home</button>
+                <Link to={'/giftastic/'} component={ Home }>
+                    <button className="button">Go Back To Home</button>
                 </Link>
             </div>
         </>

@@ -1,4 +1,4 @@
-import { URL, API_KEY } from '../settings'
+import { URL, API_KEY } from './settings'
 export default function getGifs({ limit = 15, keyword, page = 0, trending = false}) {
     const SEARCH_URL = `${URL}/search?api_key=${API_KEY}&q=${keyword}&limit=${limit}&offset=${page * limit}&lang=en`
     const TRENDINGS_URL = `${URL}/trending?api_key=${API_KEY}&limit=${limit}&offset=${page * limit}&lang=en`
