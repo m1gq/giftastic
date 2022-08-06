@@ -11,7 +11,7 @@ export default function SearchInput() {
 
     function handleSubmit(evt) {
         evt.preventDefault()
-        pushPath(`/giftastic/search/${keyword}`)
+        pushPath(`/search/${keyword}`)
     }
 
     return (

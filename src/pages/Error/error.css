@@ -46,3 +46,9 @@
 .button:hover::before {
     opacity: .8;
 }
+
+@media and (max-width: 35rem) {
+    .error-img {
+        height: 20em;
+    }
+}
