@@ -60,7 +60,7 @@ export default function Gifs({ params, title }) {
                         gifs.map(gif => {
                             return (
                                 <Gif key={gif.id} gifs={gif}>
-                                    <Link to={`/giftastic/gif/${gif.id}`} key={gif.id}>
+                                    <Link to={`/gif/${gif.id}`} key={gif.id}>
                                         <button >
                                             <img src={gif.images.downsized_medium.url} alt={gif.title} className="gif-img"/>
                                         </button>
